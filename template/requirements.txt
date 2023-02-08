@@ -4,7 +4,5 @@ scikit-learn
 scipy
 matplotlib
 jupyter
-pytorch 
-torchvision
 pillow
 tqdm
