@@ -2,7 +2,7 @@
 
 Baseline docker containers and docker compose files that works on all the platforms (including Apple Silicon).
 
-There are 3 templates in total. Base template is the most general one and includes libraries you might need for machine learning. Like scikit-learn and pandas. Other 2 folders are created for deploying deep learning models (PyTorch and TensorFlow). Since MPS (GPU Acceleration for Apple silicon) is not supported on Docker yet, codes will ran on CPU. So, training large models using these docker containers will not be optimal. However, you could still use them for deployment and production. For a detailed installation, check out my YouTube video.
+There are 3 templates in total. Base template is the most general one and includes libraries you might need for machine learning. Like scikit-learn and pandas. Other 2 folders are created for deploying deep learning models (PyTorch and TensorFlow). Since MPS (GPU Acceleration for Apple silicon) is not supported on Docker yet, codes will ran on CPU. So, training large models using these docker containers will not be optimal. However, you could still use them for deployment and production.
 
 For testing the docker containers, sample codes are added into main.py files. Remove them before use!
 
