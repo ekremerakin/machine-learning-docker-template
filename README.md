@@ -24,4 +24,4 @@ docker build .
 docker-compse build
 docker-compose up
 ```
-After that, you should see a prompt saying that server is online at . Use that link to access your notebook. If you want to use your notebook in your local network, you need to replace your computer's ip address with 127.0.0.1. Then, you should be able to access it in your local network.
+After that, you should see a prompt saying that server is online at http://127.0.0.1:8000/?token=c1b1f0... Use that link to access your notebook. If you want to use your notebook in your local network, replace 127.0.0.1 with your computer's ip address. Then, you should be able to access it in your local network.
